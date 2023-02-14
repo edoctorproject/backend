@@ -1,0 +1,72 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="14">
+            <item index="0" class="java.lang.String" itemvalue="zipp" />
+            <item index="1" class="java.lang.String" itemvalue="pytz" />
+            <item index="2" class="java.lang.String" itemvalue="importlib-metadata" />
+            <item index="3" class="java.lang.String" itemvalue="psycopg2-binary" />
+            <item index="4" class="java.lang.String" itemvalue="pandas" />
+            <item index="5" class="java.lang.String" itemvalue="pandas-oracle" />
+            <item index="6" class="java.lang.String" itemvalue="cx-Oracle" />
+            <item index="7" class="java.lang.String" itemvalue="numpy" />
+            <item index="8" class="java.lang.String" itemvalue="libsass" />
+            <item index="9" class="java.lang.String" itemvalue="Pillow" />
+            <item index="10" class="java.lang.String" itemvalue="scipy" />
+            <item index="11" class="java.lang.String" itemvalue="paho-mqtt" />
+            <item index="12" class="java.lang.String" itemvalue="requests" />
+            <item index="13" class="java.lang.String" itemvalue="urllib3" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E251" />
+          <option value="E222" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="filter" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="ldap3.SCOPE_SUBTREE" />
+          <option value="ldap3.*" />
+          <option value="type.with_ui" />
+          <option value="app_building.models.MaintenanceOrders.*" />
+          <option value="app_building.models.Equipment.*" />
+          <option value="app_building.models.Plants.*" />
+          <option value="app_building.models.Building.objects" />
+          <option value="app_building.models.Groups.*" />
+          <option value="app_building.models.ActivitiesOrders.objects" />
+          <option value="app_building.models.NotationHours.objects" />
+          <option value="bool.__getitem__" />
+          <option value="object.get" />
+          <option value="app_building.models.ScheduleMaintenancePlanned.*" />
+          <option value="condominium.models.Predio.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
